@@ -1,4 +1,4 @@
-import HeartsList from ".components/HeartsList";
+import HeartsList from "./HeartsList";
 import Header from ".components/Header";
 import "./App.css";
 

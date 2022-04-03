@@ -25,13 +25,14 @@ const messages = [
 
 const HeartsList = (props) => { 
     return (
-        <div class="hearts-container">
-           {
-               messages.map((message) => {
-               const {length} =  message;
-               return length
-           })}
-        </div>
+        <div class="hearts-container">{
+           
+              {{messages.map(message => {
+                return (<Heart msg = message/>)
+               })}
+               
+            }</div>
+        
         
     )
 
